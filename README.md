@@ -1,4 +1,4 @@
 
 **Ссылка на проект**
 
-* https://santip-a.github.io/mesto-project/
+* https://santip-a.github.io/first-project/
