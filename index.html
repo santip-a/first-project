@@ -1,21 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="./images/Logo/Logo_Pioner.jpg">
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
+<body class="body">
+  <div class="page">
 
-<body>
-    <div class="temp">sdfghjkkjhgfdsasdfgh</div>
-    <h1>gfhghjhg</h1>
-    <h2>aefsgsdghdfh</h2>
-    <h3>sdfgdsfgh</h3>
-    <h4>cgvhbjk</h4>
-    <h4>sdfugf4567890</h4>
+
+
+    <header class="header page__position">
+      <img class="header__logo" src="./images/Logo/Logo_Pioner.svg" alt="Логотип.">
+      <div class="header__telefon">
+        <p class="header__tel">+7 800 120-52-50</p>
+        <p class="header__tel-text">звонок бесплатный по России</p>
+      </div>
+      <p class="header__covid">стоп covid-19</p>
+      <button class="header__btn">
+        <img class="header__search" src="./images/lupa.svg" alt="">
+      </button>
+      <p class="header__language">Eng</p>
+      <p class="header__entry">Войти</p>
+    </header>
+
+    <main class="main">
+      <section class="info">
+        <!-- <img class="info_baner" src="./images/baner2.svg" alt="Завод."> -->
+        <div class="info__block">
+          <div class="info__nav">
+            <a class="info__nav-item" href="#">Продукция</a>
+            <a class="info__nav-item" href="#">Услуги</a>
+            <a class="info__nav-item" href="#">Новости</a>
+            <a class="info__nav-item" href="#">Контакты</a>
+            <a class="info__nav-item" href="#">Представительства</a>
+          </div>
+          <h1 class="info__title">российский завод силовых машин</h1>
+          <ul class="info__list">
+            <li class="info__list-item">разработка, производство, реализация  силовых машин</li>
+            <li class="info__list-item">более 25 лет на рынке</li>
+            <li class="info__list-item">увеличенная гарантия на  продукцию</li>
+          </ul>
+          <button class="info__btn">оставить заявку</button>
+        </div>
+
+      </section>
+
+      <section class="work page__position">
+        <h2 class="work__title">о предприятии</h2>
+        <div class="wokr__cards">
+          <div class="work__card">
+            <h3 class="work__card-title">Производственный потенциал</h3>
+            <img class="work__img" src="/images/work1.jpg" alt="">
+            <p class="work__text">Научно-технический центр, испытательная лаборатория, современная база, учебный центр и широкая сеть региональных, международных представительств.</p>
+          </div>
+          <div class="work__card">
+            <h3 class="work__card-title">Производственный потенциал</h3>
+            <img class="work__img" src="/images/work2.jpg" alt="">
+            <p class="work__text">Научно-технический центр, испытательная лаборатория, современная база, учебный центр и широкая сеть региональных, международных представительств.</p>
+          </div>
+          <div class="work__card">
+            <h3 class="work__card-title">Производственный потенциал</h3>
+            <img class="work__img" src="/images/work3.jpg" alt="">
+            <p class="work__text">Научно-технический центр, испытательная лаборатория, современная база, учебный центр и широкая сеть региональных, международных представительств.</p>
+          </div>
+        </div>
+        <div class="btn-link">
+          <div class="btn-link__item">
+            <img class="btn-link__img" src="./images/Arrow 1.svg" alt="">
+            <p class="btn-link__text">наши представительства</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="directions page__position">
+        <h2 class="directions__title">НОВЫЕ НАПРАВЛЕНИЯ</h2>
+        <div class="directions__list">
+          <ul class="list">
+            <li class="list__item list__item_color-line">Сигнализатор уровня и потока термодифференциальный</li>
+            <li class="list__item list__item_color-line">Сигнализатор уровня волноводный ультразвуковой</li>
+            <li class="list__item list__item_color-line">Сигнализатор уровня вибрационный</li>
+            <li class="list__item list__item_color-line">Уровнемеры поплавковые потенциометрически</li>
+            <li class="list__item list__item_color-line">Уровнемеры радарные</li>
+            <li class="list__item list__item_color-line">Уровнемеры ультразвуковые бесконтактные</li>
+          </ul>
+        </div>
+        <div class="btn-link">
+          <div class="btn-link__item">
+            <img class="btn-link__img" src="./images/Arrow 1.svg" alt="">
+            <p class="btn-link__text">узнать подробнее</p>
+          </div>
+        </div>
+        <img class="directions__img" src="./images/direction.svg" alt="Прибор.">
+
+      </section>
+
+      <section class="products page__position">
+        <h2 class="products__title">новинки продукции</h2>
+        <div class="products__item ">
+          <div class="products__list">
+            <ul class="list products_list_right">
+              <li class="list__item">Датчики давления</li>
+              <li class="list__item">Датчики и измерители температуры</li>
+              <li class="list__item">Вторичные приборы</li>
+              <li class="list__item">Метрологическое оборудование</li>
+              <li class="list__item">Уровнемеры и сигнализаторы уровня и потока</li>
+              <li class="list__item">Расходомеры</li>
+            </ul>
+          </div>
+          <img class="products__img" src="./images/turbina.png" alt="Турбина.">
+        </div>
+
+        <div class="products__item products__item_right">
+          <div class="products__list">
+            <ul class="list products_list_left">
+              <li class="list__item">Электромагнитные расходомеры-счетчики</li>
+              <li class="list__item">Расходомеры-счетчики вихревые</li>
+              <li class="list__item">Ультразвуковые с автономным питанием</li>
+              <li class="list__item">Ультразвуковые с питанием от сети</li>
+              <li class="list__item">Датчики дифференциального давления</li>
+              <li class="list__item">Корректор расхода газа</li>
+            </ul>
+          </div>
+          <img class="products__img products__img_right" src="./images/turbina.png" alt="Турбина.">
+        </div>
+
+        <div class="products__item ">
+          <div class="products__list">
+            <ul class="list products_list_right">
+              <li class="list__item">Измерители-регуляторы, ПИД-регуляторы</li>
+              <li class="list__item">Регистраторы</li>
+              <li class="list__item">Блоки питания и преобразования сигналов</li>
+              <li class="list__item ">Модульные преобразователи</li>
+              <li class="list__item ">Индикаторы-измерители, модули УСО, HART-модемы</li>
+              <li class="list__item ">Преобразователи интерфейса</li>
+            </ul>
+          </div>
+          <img class="products__img" src="./images/turbina.png" alt="Турбина.">
+        </div>
+
+        <div class="products__item products__item_right">
+          <div class="products__list">
+            <ul class="list products_list_left ">
+              <li class="list__item">Датчики давления</li>
+              <li class="list__item">Манометры электронные точных измерений,</li>
+              <li class="list__item">Электроконтактные манометры</li>
+              <li class="list__item ">Комплекты монтажных частей (КМЧ)</li>
+              <li class="list__item ">Утепляющие чехлы</li>
+              <li class="list__item ">Нагреватели</li>
+            </ul>
+          </div>
+          <img class="products__img products__img_right" src="./images/turbina.png" alt="Турбина.">
+        </div>
+        <div class="btn-link">
+          <div class="btn-link__item">
+            <img class="btn-link__img" src="./images/Arrow 1.svg" alt="">
+            <p class="btn-link__text">полный каталог продукции</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer ">
+      <div class="footor__content page__position">
+        <div class="footer__contact">
+          <img class="footer__logo" src="./images/Logo/Logo_Pioner.svg" alt="Логотип.">
+          <p class="footer__contact-text">Телефон в Свердловске: +7 495 456-24-21</p>
+          <p class="footer__contact-text">Бесплатный телефон по России: +7 800 120-52-50</p>
+          <p class="footer__contact-text">1994 – 2020 ооо "пионер"</p>
+        </div>
+        <div class="footer__menu">
+          <p class="foter__menu-title">меню</p>
+          <ul class="footer__list">
+            <li class="footer__list-item">Продукция</li>
+            <li class="footer__list-item">География поставок</li>
+            <li class="footer__list-item">Файлы</li>
+            <li class="footer__list-item">Новости</li>
+            <li class="footer__list-item">Прайс-лист</li>
+            <li class="footer__list-item">Услуги</li>
+            <li class="footer__list-item">Каталоги</li>
+          </ul>
+        </div>
+        <div class="footer__mail">
+          <p class="footer__mail-title">подпишись на рассылку</p>
+          <input class="footer__input" type="text" placeholder="e-mail">
+          <button class="footer__btn">отправить</button>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+
 
 </body>
-
 </html>

@@ -1,0 +1,6 @@
+.footer {
+  background: rgba(165, 165, 165, 0.5);
+  background-image: url(../../images/footer.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}

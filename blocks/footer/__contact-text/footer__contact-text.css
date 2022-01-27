@@ -1,0 +1,14 @@
+.footer__contact-text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 30px;
+  color: #252121;
+  padding-top: 0px;
+}
+
+.footer__contact-text:last-child {
+  padding-top: 10px;
+  line-height: 22px;
+  text-transform: uppercase;
+}

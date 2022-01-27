@@ -1,0 +1,6 @@
+.info__block {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 50px;
+  z-index: 10;
+}

@@ -1,0 +1,15 @@
+.info__nav-item {
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  text-decoration:none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.info__nav-item:hover {
+  opacity: .5;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}

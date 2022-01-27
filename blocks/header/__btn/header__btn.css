@@ -1,0 +1,10 @@
+.header__btn {
+  border: none;
+  background-color: white;
+}
+
+.header__btn:hover {
+  opacity: .5;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}

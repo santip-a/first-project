@@ -1,0 +1,11 @@
+.header__entry {
+  font-size: 18px;
+  line-height: 25px;
+  color: #252121;
+}
+
+.header__entry:hover {
+  opacity: .5;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}

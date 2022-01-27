@@ -1,0 +1,12 @@
+.header__covid {
+  width: 160px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #EE1D1D;
+  background: #FFFFFF;
+  border: 5px solid #EE1D1D;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}

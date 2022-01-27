@@ -1,0 +1,9 @@
+.info__list-item {
+  padding: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  background: url(../images/marker.svg) no-repeat 0 4px; /* Параметры фона */
+  padding-left: 30px; /* Смещаем текст вправо */
+}

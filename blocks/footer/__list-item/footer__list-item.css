@@ -1,0 +1,15 @@
+.footer__list-item {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.footer__list-item:hover {
+  opacity: .5;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+

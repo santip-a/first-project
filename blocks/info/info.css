@@ -1,0 +1,11 @@
+.info {
+  background: #006ED5;
+  position: relative;
+  display: flexbox;
+  flex-direction: column;
+  background-image: url(../../images/baner2.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+
+}
+
